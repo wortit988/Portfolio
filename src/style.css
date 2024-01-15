@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&display=swap");
+
 
 :root {
   --Snigle-font: "sniglet", cursive;
-  --Rubik: "Rubik", cursive;
+  --Roboto: "Roboto", sans-serif;
+  --Expletus: "Expletus Sans", sans-serif !important;
   --bggradient: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
 * {
   box-sizing: border-box;
-  font-family: var(--Rubik);
+  font-family: var(--Roboto);
   scroll-behavior: smooth;
 }
 
@@ -67,7 +70,7 @@ header .nav-link:hover {
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 28vmin;
-  font-family: var(--Rubik);
+  font-family: var(--Expletus);
   color: whitesmoke;
 }
 
@@ -80,7 +83,7 @@ header .row .col-md-5 img {
 }
 
 header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--Expletus)
 }
 
 header .container .col-md-7 h4 {
@@ -151,7 +154,7 @@ header .btn {
 
 .section-1 .screen .content-sec p {
   color: whitesmoke;
-  font-family: var(--Rubik);
+  font-family: var(--Roboto);
   margin: 0;
   padding: 0;
 }
@@ -159,13 +162,9 @@ header .btn {
 /********** section 2 **************/
 
 .section-2 {
-  padding: 8vmin 0vmin;
+  padding: 8vmin 2vmin;
   min-height: 530px;
-}
-
-.section-2 .row .col-md-6 .pray img {
-  width: 65%;
-  border-radius: 0.2em;
+  width: 100%;
 }
 
 .section-2 .row .col-md-6:last-child {
@@ -174,22 +173,22 @@ header .btn {
 
 .section-2 .row .col-md-6 .panel {
   position: absolute;
-  top: 7vmin;
-  left: -25vmin;
   background: var(--bggradient);
   border-radius: 3px;
   text-align: left;
   padding: 4vmin 4vmin 7vmin 5vmin;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  font-family: var(--Rubik);
+  font-family: var(--Roboto);
   z-index: 1;
+  width: 200%;
 }
 
 .section-2 .row .col-md-6 .panel h2 {
   font-weight: bold;
   padding: 0.4em 0;
   color: whitesmoke;
-  font-size: 1.4em;
+  font-size: 2em;
+  font-family: var(--Expletus);
 }
 
 .section-2 .row .col-md-6 .panel h3 {
@@ -201,6 +200,7 @@ header .btn {
 .section-2 .row .col-md-6 .panel h4 {
   color: whitesmoke;
   font-size: 1.2em;
+  font-family: var(--Expletus);
 }
 
 .section-2 .row .col-md-6 .panel h6 {
@@ -229,11 +229,10 @@ header .btn {
 
 .numbers .rect h1 {
   font-size: 4rem;
-  color: tomato;
 }
 
 .numbers .rect p {
-  font-family: var(--Rubik);
+  font-family: var(--Roboto);
   font-size: 1.5rem;
 }
 
@@ -245,6 +244,10 @@ header .btn {
 /********** section 4 **************/
 .section-4 .container {
   padding-top: 6vmin;
+}
+
+.header-expletus-font {
+  font-family: var(--Expletus);
 }
 
 .section-4 .container .secondary-text {
@@ -442,3 +445,29 @@ footer .column i + i {
 #myBtn:hover {
   background-color: #404040;
 }
+
+
+/* Trying changes   */
+
+.hero-image {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  width: 100%;
+}
+
+.hero-text {
+  /* color: grey; */
+  text-align: center;
+  font-family: var(--Expletus);
+}
+
+.hero-text-description {
+  font-size: 1rem;
+}
+
+
+/* Nav */
+
+
+
