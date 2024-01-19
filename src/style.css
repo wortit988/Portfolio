@@ -6,7 +6,8 @@
   --Snigle-font: "sniglet", cursive;
   --Roboto: "Roboto", sans-serif;
   --Expletus: "Expletus Sans", sans-serif !important;
-  --bggradient: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  /* --bggradient: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+  --bggradient: linear-gradient(90deg, #057088 100%, #3a47d5 0%);
 }
 
 * {
@@ -60,6 +61,13 @@ header .nav-link {
 header .navbar-brand {
   padding-left: 8rem;
   font-size: 1.8em;
+  color: /* Your default color here */;
+  transition: color 0.8s ease; /* This adds a smooth transition effect */
+
+}
+
+.navbar-brand:hover {
+  color:#f36d2f;
 }
 
 header .nav-link:hover {
@@ -468,6 +476,12 @@ footer .column i + i {
 
 
 /* Nav */
+
+.navbar-header-main {
+  /* background-color: #ff4e9e; */
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.1);
+
+}
 
 
 
